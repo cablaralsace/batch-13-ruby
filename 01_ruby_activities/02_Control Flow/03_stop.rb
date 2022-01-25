@@ -1,3 +1,4 @@
+#control flow activity
 
 puts "Go or Stop?"
 answer = gets.chomp

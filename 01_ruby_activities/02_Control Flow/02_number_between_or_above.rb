@@ -1,3 +1,5 @@
+#control flow activity
+
 puts "Enter a number from 0 to 100"
 number = gets.chomp.to_i
 
