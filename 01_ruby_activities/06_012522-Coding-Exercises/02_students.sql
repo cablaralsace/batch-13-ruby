@@ -39,3 +39,15 @@ WHERE id='1';
 
 -- Delete last record
 DELETE FROM students where id IN(SELECT MAX(id) FROM students);
+
+-- Display count of all students
+SELECT COUNT(id) FROM students;
+
+-- Select students with location Manila
+SELECT * FROM students where (location) = 'Manila';
+
+--Display average age
+SELECT AVG(age) FROM students;
+
+-- Display students by descending order of age
+SELECT * FROM students ORDER BY age DESC;
